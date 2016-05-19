@@ -32,7 +32,6 @@ public class VideoPusher extends Pusher implements Callback, PreviewCallback {
 	private final static int SCREEN_PORTRAIT = 0;
 	private final static int SCREEN_LANDSCAPE_LEFT = 90;
 	private final static int SCREEN_LANDSCAPE_RIGHT = 270;
-
 	public VideoPusher(Activity activity, SurfaceHolder surfaceHolder,
 			VideoParam param, PusherNative pusherNative) {
 		super(pusherNative);
